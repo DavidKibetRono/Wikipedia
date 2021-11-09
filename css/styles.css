@@ -1,0 +1,187 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.main {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.inner-addon {
+    position: relative;
+}
+
+.glyphicon {
+    position: absolute;
+    padding: 15px 10px 10px 10px;
+}
+
+.inner-addon input {
+    margin-top: 7px;
+}
+
+.right-addon .glyphicon {
+    right: 0px
+}
+
+.jumbotron {
+    height: 160px;
+}
+
+.title {
+    padding-left: 60px;
+    float: left;
+    line-height: 20px;
+}
+
+.lists {
+    float: right;
+    display: flex;
+    padding-right: 100px;
+}
+
+.column1 {
+    float: left;
+    width: 50%;
+    background-color: #F4FDFA;
+}
+
+.column1 input {
+    background-color: #CEF2E0;
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+    font-size: 20px;
+    padding-left: 10px;
+
+}
+
+.column2 {
+    width: 50%;
+    float: right;
+    background-color: #F6FAFE;
+}
+
+.column2 input {
+    width: 98%;
+    background-color: #CEDFF2;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+    font-size: 20px;
+    padding-left: 10px;
+
+}
+
+.column1 img {
+    float: left;
+    padding-left: 10px;
+    padding-top: 15px;
+}
+
+.column1 p {
+    padding-top: 14px;
+    padding-left: 140px;
+    line-height: 25px;
+}
+
+.column2 img {
+    float: right;
+    padding-right: 5px;
+    padding-top: 15px;
+}
+
+.column2 ul li {
+    line-height: 25px;
+}
+
+.column2 p {
+    padding-left: 10px
+}
+
+#img2 {
+    float: right;
+    padding-right: 5px;
+    padding-top: 15px;
+}
+
+.column1 ul li {
+    line-height: 25px;
+}
+
+h5 {
+    padding-left: 10px;
+}
+
+#image3 {
+    float: right;
+    padding-right: 5px;
+    padding-top: 10px;
+}
+.today{
+background-color: #FEF5FA;
+clear: both;
+width: 90%;
+margin-left:auto;
+  margin-right: auto;
+  height:200px;
+}
+.today input {
+  background-color:#F2CEDD;
+  width: 99%;
+  margin-left:auto;
+  margin-right: auto;
+  font-size: 20px;
+padding-left: 10px;
+}
+.today img{
+    float: right;
+    padding-top: 15px;
+    padding-right: 10px;
+}
+.today p{
+    padding-top:15px;
+    padding-left: 10px;
+}
+.picture{
+    clear: both;
+    width:90%;
+    margin-left:auto;
+    margin-right: auto;
+    background-color: #FAF5FE;
+    height:350px;
+
+}
+.picture input{
+    background-color: #DDCEF2;
+    width:99%;
+    margin-left:auto;
+    margin-right: auto;
+    font-size: 20px;
+    padding-left: 10px;
+
+
+}
+.picture img{
+    float: left;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.picture p{
+    padding-top: 30px;
+    padding-left: 420px;
+}
+.column1 ::placeholder{
+    color:black;
+}
+.column2 ::placeholder{
+    color:black;
+}
+.today ::placeholder{
+    color: black;
+}
+.picture ::placeholder{
+    color:black;
+}
